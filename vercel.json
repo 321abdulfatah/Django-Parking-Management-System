@@ -2,7 +2,7 @@
     "builds":[{
         "src": "smart_parking/wsgi.py",
         "use": "@vercel/python",
-        "config": {"maxLambdaSize": "15mb", "runtime": "python3.10.4"}
+        "config": {"maxLambdaSize": "250mb", "runtime": "python3.10.4"}
     }],
     "routes":[
         {
