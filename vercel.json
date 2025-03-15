@@ -1,8 +1,8 @@
 {
     "builds":[{
         "src": "smart_parking/wsgi.py",
-        "use": "@ardnt/vercel-python-wsgi",
-        "config": {"maxLambdaSize": "250mb", "runtime": "python3.10.4"}
+        "use": "@vercel/python",
+        "config": {"maxLambdaSize": "4096mb", "runtime": "python3.10.4"}
     }],
     "routes":[
         {
